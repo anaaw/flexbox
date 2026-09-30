@@ -1,0 +1,36 @@
+*{
+    margin:0%;  
+    padding:0%; 
+    box-sizing: border-box;
+    }
+    
+
+    body{
+        display: flexbox;
+        align-items: center;
+        justify-content: center;
+    }
+.container{
+   
+ height: 100vh;
+ background-color:indigo;
+ display:flex;
+ flex-direction: row;   
+ justify-content: center; 
+ align-items: center;
+ gap:20%;
+ flex-wrap: wrap;
+ padding: 50px;
+}
+
+.cards{
+
+    width: 180px;   
+    height: 200px;
+    display: flex;
+    background-color:azure;
+    border: solid black;
+    justify-content:center;
+    align-items: center;
+    font-size: 20px;
+}
