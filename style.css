@@ -1,19 +1,19 @@
+/*https://www.google.com/search?q=identidade+visual+do+the+weeknd+em+cores&sca_esv=b854ad55d8fb762e&udm=2&biw=1366&bih=641&sxsrf=APpeQntLMgVsm_5NSjCVcvA-5l-K2A-t0g%3A1790863486990&ei=fmi-atSCPNvL1sQPraDc0Ag&ved=2ahUKEwjUue6v_piXAxXbpZUCHS0QF4oQ4dUDegQIBhAN&uact=5&oq=identidade+visual+do+the+weeknd+em+cores&gs_lp=Egtnd3Mtd2l6LWltZyIoaWRlbnRpZGFkZSB2aXN1YWwgZG8gdGhlIHdlZWtuZCBlbSBjb3Jlc0iKHFDdBVitGnABeACQAQCYAVCgAasFqgEBObgBA8gBAPgBAZgCAKACAJgDAIgGAZIHAKAHbLIHALgHAMIHAMgHAIAIAQ&sclient=gws-wiz-img#sv=CAMSXhoyKhBlLUVBdU1wRnNRalkxTE1NMg5FQXVNcEZzUWpZMUxNTToOTmE1ZGJvRWRMdlRHS00gBCokCg4xeFk1MkVILWk2UWxsTRIQZS1FQXVNcEZzUWpZMUxNTRgAMAEYByDtpNr0DEoIEAIYASACKAE ----- PALETA ALBUNS*/
+ 
 *{
     margin:0%;  
     padding:0%; 
     box-sizing: border-box;
     }
     
-
-    body{
-        display: flexbox;
-        align-items: center;
-        justify-content: center;
-    }
-.container{
+body{
+    background-color: black;
+}
+    
+.linhas{
    
  height: 100vh;
- background-color:indigo;
+ background-color:black;
  display:flex;
  flex-direction: row;   
  justify-content: center; 
@@ -23,14 +23,26 @@
  padding: 50px;
 }
 
-.cards{
+p{
+    color: beige;
+    text-align: center;
+    font-family: go;
+}
+.albuns{
 
-    width: 180px;   
-    height: 200px;
-    display: flex;
+    width: 292px;   
+    height: 308px;
     background-color:azure;
     border: solid black;
     justify-content:center;
     align-items: center;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+img{
+    width: 281px;   
+    height: 300px; 
+    align-items: center;
+    
 }
